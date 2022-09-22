@@ -1,10 +1,10 @@
 dnsPolicy: "ClusterFirst"
 restartPolicy : "Always"
-port: 80
+port: 8080
 protocol: "TCP"
 type: "NodePort"
 
 image:
-  name: nginx
+  name: kiranp23/studentsproject
   pullPolicy: Always
   tag: latest
