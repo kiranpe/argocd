@@ -10,7 +10,7 @@ spec:
     protocol: {{ .Values.protocol }}
     targetPort: {{ .Values.port }}
   selector:
-    name: {{ include "nginx.name" }}
+    name: {{ include "nginx.name" . }}
   type: {{ .Values.type }}
 status:
   loadBalancer: {}
