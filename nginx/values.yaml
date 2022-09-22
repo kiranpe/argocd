@@ -5,6 +5,6 @@ protocol: "TCP"
 type: "NodePort"
 
 image:
-  name: nginx
+  name: kiranp23/studentsproject
   pullPolicy: Always
-  tag: 1.23
+  tag: latest
